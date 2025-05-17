@@ -64,3 +64,39 @@
 .read-the-docs {
   color: #888;
 }
+
+.detail-box {
+  position: absolute;
+  left: 50%;
+  top: calc(100% + 8px);
+  transform: translateX(-50%);
+  background: rgba(0, 0, 0, 0.7);
+  padding: 12px;
+  border-radius: 8px;
+  width: 240px;
+  text-align: left;
+}
+
+.detail-text {
+  margin-bottom: 8px;
+}
+
+.detail-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.close-btn {
+  position: absolute;
+  top: -12px;
+  right: -12px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: #ff5555;
+  color: #fff;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  cursor: pointer;
+}

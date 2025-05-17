@@ -33,8 +33,32 @@
   }
 }
 
+.card-container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background: linear-gradient(120deg, #232526 0%, #414345 100%);
+}
+
 .card {
-  padding: 2em;
+  background: #fff2;
+  border-radius: 16px;
+  box-shadow: 0 4px 16px #0006;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  color: #fff;
+  user-select: none;
+  cursor: pointer;
+  position: absolute;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.card-title {
+  font-weight: bold;
+  letter-spacing: 2px;
 }
 
 .read-the-docs {
